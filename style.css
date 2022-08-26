@@ -1,17 +1,23 @@
-h1,
-h2,
-h3,
-h4,
-li,
-p {
-  font-family: sans-serif;
+* {
 }
+
+body {
+  font-family: sans-serif;
+  color: #444;
+  border-top: 10px solid #1098ad;
+}
+
 h1 {
   font-size: 26px;
   text-transform: uppercase;
   font-style: italic;
 }
 
+h1,
+h2,
+h3 {
+  color: #1098ad;
+}
 h2 {
   font-size: 40px;
 }
@@ -31,10 +37,67 @@ li {
   font-size: 20px;
 }
 
-footer p {
+#Author {
+  font-style: italic;
+  font-size: 18px;
+}
+
+#copyright {
   font-size: 16px;
 }
 
-article header p {
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.bullet {
+  margin: 15px;
+  list-style: none;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+}
+.related-post {
+  text-align: center;
+}
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+}
+
+.first-li {
+  font-weight: bold;
+}
+
+li:first-child {
+  font-weight: bold;
+}
+/* li:nth-child(2) {
+  color: red;
+} */
+a:link {
+  color: #1098ad;
+  text-decoration-line: none;
+}
+
+a:visited {
+  color: #1098ad;
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline dotted;
+}
+
+a:active {
+  background-color: black;
   font-style: italic;
+}
+
+nav {
+  font-size: 18px;
 }
